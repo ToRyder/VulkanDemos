@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10.0)
 
 set(ANDROID TRUE CACHE BOOL "")
 
-set(NAME 5_OptimizeCommandBuffer)
+set(NAME 05_OptimizeCommandBuffer)
 set(BASE_DIR ../../../../VulkanDemos)
 
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -u ANativeActivity_onCreate")
@@ -25,7 +25,7 @@ add_library(native-app-glue STATIC ${ANDROID_NDK}/sources/android/native_app_glu
 
 add_library(example-lib SHARED
     ${BASE_DIR}/Engine/Monkey/Launch/LaunchAndroid.cpp
-    ${BASE_DIR}/examples/5_OptimizeCommandBuffer/Triangle.cpp
+    ${BASE_DIR}/examples/05_OptimizeCommandBuffer/Triangle.cpp
 )
 
 target_link_libraries(

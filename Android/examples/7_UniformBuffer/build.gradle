@@ -56,8 +56,8 @@ android {
 }
 task copyTask << {
     copy {
-        from '../../../examples/assets/shaders/7_UniformBuffer'
-        into 'assets/assets/shaders/7_UniformBuffer'
+        from '../../../examples/assets/shaders/07_UniformBuffer'
+        into 'assets/assets/shaders/07_UniformBuffer'
         include '*.*'
     }
 

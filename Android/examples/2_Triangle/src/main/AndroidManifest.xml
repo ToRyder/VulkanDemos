@@ -3,7 +3,7 @@
     package="com.monkey.sample.demo02">
     
     <application
-        android:label="2_Triangle"
+        android:label="02_Triangle"
         android:icon="@drawable/icon"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity android:name="com.monkey.sample.VulkanActivity"

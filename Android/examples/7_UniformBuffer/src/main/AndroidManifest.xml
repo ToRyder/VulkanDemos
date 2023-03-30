@@ -3,7 +3,7 @@
     package="com.monkey.sample.demo07">
     
     <application
-        android:label="7_UniformBuffer"
+        android:label="07_UniformBuffer"
         android:icon="@drawable/icon"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity android:name="com.monkey.sample.VulkanActivity"

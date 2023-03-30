@@ -56,8 +56,8 @@ android {
 }
 task copyTask << {
     copy {
-        from '../../../examples/assets/shaders/9_LoadMesh'
-        into 'assets/assets/shaders/9_LoadMesh'
+        from '../../../examples/assets/shaders/09_LoadMesh'
+        into 'assets/assets/shaders/09_LoadMesh'
         include '*.*'
     }
 

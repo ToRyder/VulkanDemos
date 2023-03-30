@@ -3,7 +3,7 @@
     package="com.monkey.sample.demo08">
     
     <application
-        android:label="8_OptimizeVertexIndexBuffer"
+        android:label="08_OptimizeVertexIndexBuffer"
         android:icon="@drawable/icon"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity android:name="com.monkey.sample.VulkanActivity"

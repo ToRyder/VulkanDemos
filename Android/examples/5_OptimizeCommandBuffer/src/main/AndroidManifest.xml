@@ -3,7 +3,7 @@
     package="com.monkey.sample.demo05">
     
     <application
-        android:label="5_OptimizeCommandBuffer"
+        android:label="05_OptimizeCommandBuffer"
         android:icon="@drawable/icon"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity android:name="com.monkey.sample.VulkanActivity"

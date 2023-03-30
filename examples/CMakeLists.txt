@@ -69,12 +69,12 @@ elseif (UNIX)
 	)
 endif ()
 
-SETUP_SAMPLE_START(2_Triangle)
+SETUP_SAMPLE_START(02_Triangle)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/2_Triangle/Triangle.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/02_Triangle/Triangle.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/2_Triangle/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/02_Triangle/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -82,14 +82,14 @@ SETUP_SAMPLE_START(2_Triangle)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(2_Triangle)
+SETUP_SAMPLE_END(02_Triangle)
 
-SETUP_SAMPLE_START(3_DemoBase)
+SETUP_SAMPLE_START(03_DemoBase)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/3_DemoBase/Triangle.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/03_DemoBase/Triangle.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/2_Triangle/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/02_Triangle/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -97,14 +97,14 @@ SETUP_SAMPLE_START(3_DemoBase)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(3_DemoBase)
+SETUP_SAMPLE_END(03_DemoBase)
 
-SETUP_SAMPLE_START(4_OptimizeBuffer)
+SETUP_SAMPLE_START(04_OptimizeBuffer)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/4_OptimizeBuffer/Triangle.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/04_OptimizeBuffer/Triangle.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/2_Triangle/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/02_Triangle/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -112,14 +112,14 @@ SETUP_SAMPLE_START(4_OptimizeBuffer)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(4_OptimizeBuffer)
+SETUP_SAMPLE_END(04_OptimizeBuffer)
 
-SETUP_SAMPLE_START(5_OptimizeCommandBuffer)
+SETUP_SAMPLE_START(05_OptimizeCommandBuffer)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/5_OptimizeCommandBuffer/Triangle.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/05_OptimizeCommandBuffer/Triangle.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/2_Triangle/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/02_Triangle/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -127,14 +127,14 @@ SETUP_SAMPLE_START(5_OptimizeCommandBuffer)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(5_OptimizeCommandBuffer)
+SETUP_SAMPLE_END(05_OptimizeCommandBuffer)
 
-SETUP_SAMPLE_START(6_ImageGUI)
+SETUP_SAMPLE_START(06_ImageGUI)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/6_ImageGUI/Triangle.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/06_ImageGUI/Triangle.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/2_Triangle/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/02_Triangle/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -142,14 +142,14 @@ SETUP_SAMPLE_START(6_ImageGUI)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(6_ImageGUI)
+SETUP_SAMPLE_END(06_ImageGUI)
 
-SETUP_SAMPLE_START(7_UniformBuffer)
+SETUP_SAMPLE_START(07_UniformBuffer)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/7_UniformBuffer/UniformBuffer.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/07_UniformBuffer/UniformBuffer.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/7_UniformBuffer/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/07_UniformBuffer/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -157,14 +157,14 @@ SETUP_SAMPLE_START(7_UniformBuffer)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(7_UniformBuffer)
+SETUP_SAMPLE_END(07_UniformBuffer)
 
-SETUP_SAMPLE_START(8_OptimizeVertexIndexBuffer)
+SETUP_SAMPLE_START(08_OptimizeVertexIndexBuffer)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/8_OptimizeVertexIndexBuffer/Triangle.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/08_OptimizeVertexIndexBuffer/Triangle.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/8_OptimizeVertexIndexBuffer/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/08_OptimizeVertexIndexBuffer/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -172,14 +172,14 @@ SETUP_SAMPLE_START(8_OptimizeVertexIndexBuffer)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(8_OptimizeVertexIndexBuffer)
+SETUP_SAMPLE_END(08_OptimizeVertexIndexBuffer)
 
-SETUP_SAMPLE_START(9_LoadMesh)
+SETUP_SAMPLE_START(09_LoadMesh)
 	SET(SOURCE_FILES
 		${MainLaunch}
-		${CMAKE_CURRENT_SOURCE_DIR}/9_LoadMesh/9_LoadMesh.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/09_LoadMesh/9_LoadMesh.cpp
 	)
-	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/9_LoadMesh/*.*")
+	file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/assets/shaders/09_LoadMesh/*.*")
 	foreach(file ${files})
 		SET(ASSETS
 			${ASSETS}
@@ -187,7 +187,7 @@ SETUP_SAMPLE_START(9_LoadMesh)
 		)
 	endforeach()
 	SET(RESOURCE_FILES ${ASSETS})
-SETUP_SAMPLE_END(9_LoadMesh)
+SETUP_SAMPLE_END(09_LoadMesh)
 
 SETUP_SAMPLE_START(10_Pipelines)
 	SET(SOURCE_FILES
